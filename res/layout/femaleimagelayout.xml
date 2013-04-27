@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/imageRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/femalebody"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/bheadfemale"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/bhand1female"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/bheadfemale"
+        android:layout_toLeftOf="@+id/bheadfemale"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/bstomachfemale"
+        android:layout_width="50dp"
+        android:layout_height="170dp"
+        android:layout_alignLeft="@+id/bheadfemale"
+        android:layout_alignRight="@+id/bheadfemale"
+        android:layout_below="@+id/bheadfemale"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/blegsfemale"
+        android:layout_width="130dp"
+        android:layout_height="230dp"
+        android:layout_below="@+id/bstomachfemale"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/bhand2female"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_alignTop="@+id/bstomachfemale"
+        android:layout_toRightOf="@+id/bstomachfemale"
+        android:background="@android:color/transparent" />
+
+</RelativeLayout>

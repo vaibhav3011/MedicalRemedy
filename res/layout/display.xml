@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/displayremedy"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_disp_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:paddingTop="60dp"
+        android:text="Gangs of wasseypur"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/tv_disp2"
+        android:layout_width="300dp"
+        android:layout_height="360dp"
+        android:layout_below="@+id/tv_disp_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:gravity="fill_vertical|center"
+        android:text="Gangs of hello"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000"
+        android:textSize="15dp" 
+        />
+
+</RelativeLayout>

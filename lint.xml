@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ExportedActivity" severity="ignore" />
+    <issue id="ExtraText" severity="ignore" />
+    <issue id="HardcodedDebugMode" severity="ignore" />
+    <issue id="HardcodedText" severity="ignore" />
+</lint>

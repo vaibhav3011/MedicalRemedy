@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Appworks1Activity!</string>
+    <string name="app_name">Heal At Home</string>
+    <string name="menu_search">Search</string>
+    <string name="search">Enter any word</string>
+
+</resources>

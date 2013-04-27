@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/imageRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/malebody"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/bheadmale"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/bstomachmale"
+        android:layout_width="80dp"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@+id/bheadmale"
+        android:layout_alignRight="@+id/bheadmale"
+        android:layout_below="@+id/bheadmale"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/bhand1male"
+        android:layout_width="80dp"
+        android:layout_height="230dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/bheadmale"
+        android:layout_marginLeft="15dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/blegsmale"
+        android:layout_width="120dp"
+        android:layout_height="280dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/bhand2male"
+        android:layout_width="80dp"
+        android:layout_height="230dp"
+        android:layout_alignTop="@+id/bstomachmale"
+        android:layout_toRightOf="@+id/blegsmale"
+        android:background="@android:color/transparent" />
+
+</RelativeLayout>
